@@ -1,7 +1,7 @@
 {
   "name": "mongodb-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "Utility functions to request MongoDB Data API",
   "main": "dist/index.js",
   "types": "dist/index.d.js",
   "files": [
@@ -14,7 +14,10 @@
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
     "lint": "tslint -p tsconfig.json"
   },
-  "keywords": [],
+  "keywords": [
+    "MongoDB data api",
+    "MongoDB"
+  ],
   "author": "StartMeUp",
   "license": "ISC",
   "devDependencies": {
@@ -29,5 +32,10 @@
   "dependencies": {
     "axios": "^0.27.2",
     "dotenv": "^16.0.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StartMeUp/mongodb-api.git"
+  },
+  "homepage": "https://github.com/StartMeUp/mongodb-api#readme"
 }

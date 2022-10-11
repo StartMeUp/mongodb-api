@@ -54,8 +54,3 @@ export const aggregate = postRequest<
   ExtraData[Actions.aggregate],
   Responses[Actions.aggregate]
 >(Actions.aggregate);
-
-(async () => {
-  const data = await findMany("restaurants");
-  console.log(data?.documents[0]);
-})();
