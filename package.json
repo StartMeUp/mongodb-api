@@ -1,5 +1,5 @@
 {
-  "name": "mongodb-data-api",
+  "name": "mongo-data-api",
   "version": "1.0.0",
   "description": "Utility functions to request MongoDB Data API",
   "main": "dist/index.js",

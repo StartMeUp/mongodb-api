@@ -29,6 +29,6 @@ export const postRequest =
       });
       return data;
     } catch (error) {
-      console.log("error MongoDbAPI =>", error.response);
+      return error;
     }
   };
