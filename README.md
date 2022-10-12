@@ -26,7 +26,7 @@ import {
   deleteMany,
   deleteOne,
   aggregate,
-} from "mongodb-api";
+} from "mongo-data-api";
 
 // all functions take 2 arguments ("collectionName", {options object}) and return a promise
 // Only the data of the response is returned, not the whole response
